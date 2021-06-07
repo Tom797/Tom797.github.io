@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Tom797.github.io</id>
+    <title>Tom</title>
+    <updated>2021-06-07T11:45:08.327Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Tom797.github.io"/>
+    <link rel="self" href="https://Tom797.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://Tom797.github.io/images/avatar.png</logo>
+    <icon>https://Tom797.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Tom</rights>
+    <entry>
+        <title type="html"><![CDATA[MATLAB学习笔记1]]></title>
+        <id>https://Tom797.github.io/post/matlab-xue-xi-bi-ji-1/</id>
+        <link href="https://Tom797.github.io/post/matlab-xue-xi-bi-ji-1/">
+        </link>
+        <updated>2021-06-07T11:43:53.000Z</updated>
+        <content type="html"><![CDATA[<p>t = 0:0.001:1;<br>
+y1 = 0.5<em>t+t.^2;<br>
+y2 = 0.5</em>t+4;<br>
+subplot(2,1,1)%在2行1列的第一个位置画图<br>
+plot(t,y1)<br>
+subplot(2,1,2)<br>
+plot(t,y2,'go')<br>
+xlabel('时间');<br>
+ylabel('速度');<br>
+title('数据分析')<br>
+grid on%在图中添加格子<br>
+legend('y=1*y1')<br>
+<img src="https://Tom797.github.io/post-images/1623066269801.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
