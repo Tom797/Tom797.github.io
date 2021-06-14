@@ -2,23 +2,24 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MATLAB学习笔记1 | Tom</title>
+<title>图像质量参数中常用公式 | Tom</title>
 <link rel="shortcut icon" href="https://Tom797.github.io/favicon.ico?v=1623682880972">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://Tom797.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="MATLAB学习笔记1 | Tom - Atom Feed" href="https://Tom797.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="图像质量参数中常用公式 | Tom - Atom Feed" href="https://Tom797.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="t = 0:0.001:1;
-y1 = 0.5t+t.^2;
-y2 = 0.5t+4;
-subplot(2,1,1)%在2行1列的第一个位置画图
-plot(t,y1)
-subplot(2,1,2)
-plot(t,y2,'go')
-xlabe..." />
+    <meta name="description" content="均匀性：1-（(MAX-MIN)/AVERAGE）*100%
+RGB转亮度：Y=0.2125R+0.7154G+0.0721B
+饱和度等级
+
+rgb转hsv
+
+色差与彩度差
+
+..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -81,11 +82,11 @@ xlabe..." />
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              MATLAB学习笔记1
+              图像质量参数中常用公式
             </h2>
             <div class="post-info">
               <span>
-                2021-06-07
+                2021-06-14
               </span>
               <span>
                 1 min read
@@ -95,19 +96,14 @@ xlabe..." />
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>t = 0:0.001:1;<br>
-y1 = 0.5<em>t+t.^2;<br>
-y2 = 0.5</em>t+4;<br>
-subplot(2,1,1)%在2行1列的第一个位置画图<br>
-plot(t,y1)<br>
-subplot(2,1,2)<br>
-plot(t,y2,'go')<br>
-xlabel('时间');<br>
-ylabel('速度');<br>
-title('数据分析')<br>
-grid on%在图中添加格子<br>
-legend('y=1*y1')<br>
-<img src="https://Tom797.github.io/post-images/1623066269801.png" alt="" loading="lazy"></p>
+                <p>均匀性：1-（(MAX-MIN)/AVERAGE）*100%<br>
+RGB转亮度：Y=0.2125R+0.7154G+0.0721B</p>
+<p>饱和度等级<br>
+<img src="https://Tom797.github.io/post-images/1623682126199.PNG" alt="" loading="lazy"></p>
+<p>rgb转hsv<br>
+<img src="https://Tom797.github.io/post-images/1623682853593.PNG" alt="" loading="lazy"></p>
+<p>色差与彩度差<br>
+<img src="https://Tom797.github.io/post-images/1623682878243.PNG" alt="" loading="lazy"></p>
 
               </div>
               <div class="toc-container">
@@ -117,6 +113,15 @@ legend('y=1*y1')<br>
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Tom797.github.io/post/matlab-xue-xi-bi-ji-1/">
+              <h3 class="post-title">
+                MATLAB学习笔记1
+              </h3>
+            </a>
+          </div>
         
 
         

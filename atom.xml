@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Tom797.github.io</id>
     <title>Tom</title>
-    <updated>2021-06-07T11:45:08.327Z</updated>
+    <updated>2021-06-14T15:01:50.865Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Tom797.github.io"/>
     <link rel="self" href="https://Tom797.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://Tom797.github.io/images/avatar.png</logo>
     <icon>https://Tom797.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Tom</rights>
+    <entry>
+        <title type="html"><![CDATA[图像质量参数中常用公式]]></title>
+        <id>https://Tom797.github.io/post/tu-xiang-zhi-liang-can-shu-zhong-chang-yong-gong-shi/</id>
+        <link href="https://Tom797.github.io/post/tu-xiang-zhi-liang-can-shu-zhong-chang-yong-gong-shi/">
+        </link>
+        <updated>2021-06-14T14:45:43.000Z</updated>
+        <content type="html"><![CDATA[<p>均匀性：1-（(MAX-MIN)/AVERAGE）*100%<br>
+RGB转亮度：Y=0.2125R+0.7154G+0.0721B</p>
+<p>饱和度等级<br>
+<img src="https://Tom797.github.io/post-images/1623682126199.PNG" alt="" loading="lazy"></p>
+<p>rgb转hsv<br>
+<img src="https://Tom797.github.io/post-images/1623682853593.PNG" alt="" loading="lazy"></p>
+<p>色差与彩度差<br>
+<img src="https://Tom797.github.io/post-images/1623682878243.PNG" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MATLAB学习笔记1]]></title>
         <id>https://Tom797.github.io/post/matlab-xue-xi-bi-ji-1/</id>
